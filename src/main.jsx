@@ -13,6 +13,7 @@ import Blog from './component/page/blog/Blog';
 import Agent from './component/page/agent/Agent';
 import SignIn from './component/page/signin/SignIn';
 import SignUp from './component/page/signup/SignUp';
+import AllResout from './component/page/All resout/AllResout';
 
 const router = createBrowserRouter([
   {
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home>,
+      },
+      {
+        path: "/allresout",
+        element: <AllResout></AllResout>
       },
       {
         path: "/contact",
