@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 const Contact = () => {
@@ -7,11 +8,14 @@ const Contact = () => {
                 <div className="text-center pt-16">
                     <h1 className="text-4xl text-[#050415] font-extrabold pb-2">Contact Us</h1>
                     <p className="font-medium">Say hello. Tell us how we can guide you.</p>
+                    <Link to="/">
+                        <h1 className="bg-slate-200 px-6 md:ml-[580px] mt-2 py-2 rounded-md hover:bg-orange-600 w-24 justify-center hover:text-white">Home</h1>
+                    </Link>
                 </div>
                 <div className="pt-40 ">
-                    <div className="bg-[#010411] ml-40 mx-16 w-[971px]  p-12">
+                    <div className="bg-[#010411] ml-40 mx-16 md:w-[971px]  p-12">
                         <h1 className="text-white text-4xl font-bold">Our Office</h1>
-                        <div className="flex gap-36">
+                        <div className="md:flex gap-36">
                             <div className="pt-8">
                                 <h1 className="text-white text-2xl font-medium">Los Angeles</h1>
                                 <p className="w-[200px] text-[#ffffffbf] py-4">90 Fifth Avenue, 3rd Floor Los Angeles, CA 1980</p>

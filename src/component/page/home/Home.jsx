@@ -1,3 +1,4 @@
+import AgentInHome from "./AgentInHome";
 import Cart from "./Cart";
 import FrequentlyQ from "./FrequentlyQ";
 import Hero from "./Hero";
@@ -13,6 +14,7 @@ const Home = () => {
             <Cart></Cart>
             <VideoSection></VideoSection>
             <FrequentlyQ></FrequentlyQ>
+            <AgentInHome></AgentInHome>
             <Review></Review>
             <HomeContact></HomeContact>
         </div>

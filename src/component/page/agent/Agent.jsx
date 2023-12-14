@@ -1,4 +1,5 @@
 import { FaPhoneAlt } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 
 const Agent = () => {
@@ -9,6 +10,9 @@ const Agent = () => {
                     <div className="text-center pt-16">
                         <h1 className="text-4xl text-[#050415] font-extrabold pb-2">Our Agents</h1>
                         <p className="font-medium">pairing the industry s top tecnology with local experise.</p>
+                        <Link to="/">
+                            <h1 className="bg-slate-200 px-6 md:ml-[580px] mt-2 py-2 rounded-md hover:bg-orange-600 w-24 justify-center hover:text-white">Home</h1>
+                        </Link>
                     </div>
                     <div className="pt-20 ">
                         <div className="bg-[#010411] ml-40 mx-16 w-[971px]  p-12">
