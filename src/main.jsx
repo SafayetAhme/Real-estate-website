@@ -14,6 +14,7 @@ import Agent from './component/page/agent/Agent';
 import SignIn from './component/page/signin/SignIn';
 import SignUp from './component/page/signup/SignUp';
 import AllResout from './component/page/All resout/AllResout';
+import AboutUs from './component/page/about us/AboutUs';
 
 const router = createBrowserRouter([
   {
@@ -39,6 +40,10 @@ const router = createBrowserRouter([
       {
         path: "/agent",
         element: <Agent></Agent>
+      },
+      {
+        path: "/aboutus",
+        element: <AboutUs></AboutUs>
       },
       {
         path: "/signin",

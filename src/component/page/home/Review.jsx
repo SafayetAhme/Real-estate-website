@@ -3,10 +3,10 @@
 
 const Review = () => {
     return (
-        <div className="">
+        <div className="bg-[#010E0E]">
             <div className="carousel w-full">
                 <div id="slide1" className="carousel-item relative w-full">
-                    <div className="bg-[#010411] pt-6 mx-16 my-24">
+                    <div className="bg-[#010E0E] pt-6 mx-16 my-24">
                         <div className="flex gap-8">
                             <h1 className="flex items-center gap-2 text-white pl-12">TESTIMONIALS <span className="text-orange-600 text-xl">(50+)</span> </h1>
                             <img className="pt-6 pb-6" src="https://i.ibb.co/ChF36yS/Rectangle-19.png" alt="" />
@@ -30,7 +30,7 @@ const Review = () => {
                     </div>
                 </div>
                 <div id="slide2" className="carousel-item relative w-full">
-                    <div className="bg-[#010411] pt-6 mx-16 my-24">
+                    <div className="bg-[#010E0E] pt-6 mx-16 my-24">
                         <div className="flex gap-8">
                             <h1 className="flex items-center gap-2 text-white pl-12">TESTIMONIALS <span className="text-orange-600 text-xl">(50+)</span> </h1>
                             <img className="pt-6 pb-6" src="https://i.ibb.co/ChF36yS/Rectangle-19.png" alt="" />
@@ -54,7 +54,7 @@ const Review = () => {
                     </div>
                 </div>
                 <div id="slide3" className="carousel-item relative w-full">
-                    <div className="bg-[#010411] pt-6 mx-16 my-24">
+                    <div className="bg-[#010E0E] pt-6 mx-16 my-24">
                         <div className="flex gap-8">
                             <h1 className="flex items-center gap-2 text-white pl-12">TESTIMONIALS <span className="text-orange-600 text-xl">(50+)</span> </h1>
                             <img className="pt-6 pb-6" src="https://i.ibb.co/ChF36yS/Rectangle-19.png" alt="" />
@@ -78,7 +78,7 @@ const Review = () => {
                     </div>
                 </div>
                 <div id="slide4" className="carousel-item relative w-full">
-                    <div className="bg-[#010411] pt-6 mx-16 my-24">
+                    <div className="bg-[#010E0E] pt-6 mx-16 my-24">
                         <div className="flex gap-8">
                             <h1 className="flex items-center gap-2 text-white pl-12">TESTIMONIALS <span className="text-orange-600 text-xl">(50+)</span> </h1>
                             <img className="pt-6 pb-6" src="https://i.ibb.co/ChF36yS/Rectangle-19.png" alt="" />

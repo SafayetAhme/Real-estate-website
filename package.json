@@ -10,6 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.15.2",
     "flowbite": "^2.2.0",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.1",

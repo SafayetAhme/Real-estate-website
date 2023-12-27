@@ -1,0 +1,32 @@
+[
+    {
+        "category": "hello",
+        "image": [
+            "https://i.ibb.co/gRzXCq4/eng-pl-Mens-Winter-Jacket-Black-Bolf-2019-75814-13.jpg",
+            "https://i.ibb.co/gRzXCq4/eng-pl-Mens-Winter-Jacket-Black-Bolf-2019-75814-13.jpg",
+            "https://i.ibb.co/gRzXCq4/eng-pl-Mens-Winter-Jacket-Black-Bolf-2019-75814-13.jpg"
+        ],
+        "name": "",
+        "price": "",
+        "details": "",
+        "rooms": 3,
+        "bathrooms": 2,
+        "squareFeet": 1800,
+        "customerReview": [
+            {
+                "name": "",
+                "rating": 5,
+                "title": "",
+                "details": "",
+                "date": 2
+            },
+            {
+                "name": "",
+                "rating": 4,
+                "title": "",
+                "details": "",
+                "date": 2
+            }
+        ]
+    }
+]

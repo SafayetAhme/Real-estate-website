@@ -3,17 +3,10 @@ import { Link } from "react-router-dom";
 
 const Contact = () => {
     return (
-        <div>
-            <div className=" mb-32 mt-12 h-[550px]" style={{ backgroundImage: 'url(https://i.pinimg.com/564x/31/74/d4/3174d422f10ae20cf06ee35d4c7953a6.jpg)' }}>
-                <div className="text-center pt-16">
-                    <h1 className="text-4xl text-[#050415] font-extrabold pb-2">Contact Us</h1>
-                    <p className="font-medium">Say hello. Tell us how we can guide you.</p>
-                    <Link to="/">
-                        <h1 className="bg-slate-200 px-6 md:ml-[580px] mt-2 py-2 rounded-md hover:bg-orange-600 w-24 justify-center hover:text-white">Home</h1>
-                    </Link>
-                </div>
-                <div className="pt-40 ">
-                    <div className="bg-[#010411] ml-40 mx-16 md:w-[971px]  p-12">
+        <div className="px-10 container mx-auto">
+            <div className=" mt-12 ">
+                <div className="pt-2 ">
+                    <div className="bg-[#1D4734] ml-40 mx-16 md:w-[971px]  rounded-xl p-12">
                         <h1 className="text-white text-4xl font-bold">Our Office</h1>
                         <div className="md:flex gap-36">
                             <div className="pt-8">
@@ -48,7 +41,13 @@ const Contact = () => {
                         <input type="number" placeholder="phone (optional)" className="input input-bordered w-full " />
                     </div>
                     <textarea placeholder="Message" name="message" className="textarea textarea-bordered textarea-lg w-full" ></textarea>
-                    <button className="bg-orange-600 px-10 py-3 rounded-lg text-white mt-2">SEND MESSAGE</button>
+                    <button className=" mt-3 px-8 w-full py-3 bg-[#e09e6b48] text-black relative inline-flex items-center justify-start overflow-hidden transition-all rounded hover:bg-white group">
+                        {/* purple box */}
+                        <span className="w-0 h-0 rounded bg-[#e09e6b] border-[#e09e6b] text-white hover:bg-[#e09e6b]  hover:border-[#e09e6b] shadow-lg shadow-[#e09e6b48]...  absolute top-0 left-0 ease-out duration-500 transition-all group-hover:w-full group-hover:h-full -z-1"></span>
+                        <span className="w-full font-medium text-[#444240] transition-colors duration-300 ease-in-out group-hover:text-white z-10">
+                            SEND MESSAGE US
+                        </span>
+                    </button>
                 </div>
                 <div className="">
                     <h1 className="text-4xl font-bold pb-6">Send Us A Message</h1>
