@@ -3,13 +3,13 @@ import { Link } from "react-router-dom";
 
 const SignUp = () => {
     return (
-        <div>
-            <div className="hero min-h-screen bg-base-200">
-                <div className=" items-center px-16 gap-12 flex">
+        <div className="">
+            <div className="hero min-h-screen  bg-base-200">
+                <div className=" items-center px-16 gap-12 md:flex">
                     <div className="">
-                        <video className="mx-auto rounded-lg " src="https://cdn.pixabay.com/vimeo/799174132/cabin-150784.mp4?width=1280&hash=1707785ffd394bb5b79b0a5da936759849ff479d" loop autoPlay></video>
+                        <video className="md:mx-auto md:w-full w-96 rounded-lg " src="https://cdn.pixabay.com/vimeo/799174132/cabin-150784.mp4?width=1280&hash=1707785ffd394bb5b79b0a5da936759849ff479d" loop autoPlay></video>
                     </div>
-                    <div className="card shrink-0 w-[530px] shadow-2xl bg-base-100">
+                    <div className="card shrink-0 md:w-[530px] w-96 shadow-2xl bg-base-100">
                         <form className="card-body">
                             <h1 className="text-3xl font-bold text-center pb-4">Please Sign Up here</h1>
                             <div className="form-control">

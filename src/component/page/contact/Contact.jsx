@@ -6,7 +6,7 @@ const Contact = () => {
         <div className="px-10 container mx-auto">
             <div className=" mt-12 ">
                 <div className="pt-2 ">
-                    <div className="bg-[#1D4734] ml-40 mx-16 md:w-[971px]  rounded-xl p-12">
+                    <div className="bg-[#1D4734] md:ml-40 mx-16 md:w-[971px]  rounded-xl p-12">
                         <h1 className="text-white text-4xl font-bold">Our Office</h1>
                         <div className="md:flex gap-36">
                             <div className="pt-8">
@@ -29,14 +29,14 @@ const Contact = () => {
                 </div>
             </div>
 
-            <div className="grid px-16 gap-6 py-16 grid-cols-2">
-                <div>
+            <div className="grid md:px-0 gap-6 py-16 md:grid-cols-2">
+                <div className="md:w-full w-96">
                     <h1 className="text-4xl font-bold pb-6">Send Us A Message</h1>
-                    <div className="flex gap-4 pb-4">
+                    <div className="md:flex gap-4 pb-4">
                         <input type="name" name="name" placeholder="name" className="input input-bordered w-full " />
-                        <input type="email" name="email" placeholder="email" className="input input-bordered w-full " />
+                        <input type="email" name="email" placeholder="email" className="input  input-bordered w-full " />
                     </div>
-                    <div className="flex gap-4 pb-4">
+                    <div className="md:flex gap-4 pb-4">
                         <input type="text" placeholder="What is this (regarding)?" className="input input-bordered w-full " />
                         <input type="number" placeholder="phone (optional)" className="input input-bordered w-full " />
                     </div>
@@ -49,10 +49,10 @@ const Contact = () => {
                         </span>
                     </button>
                 </div>
-                <div className="">
+                <div className="md:w-full w-96">
                     <h1 className="text-4xl font-bold pb-6">Send Us A Message</h1>
                     <div>
-                        <div class="mapouter"><div class="gmap_canvas"><iframe width="564" height="410" id="gmap_canvas" src="https://maps.google.com/maps?q=california&t=&z=10&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://2yu.co"></a></div></div>
+                        <div class="mapouter"><div class="gmap_canvas"><iframe className="md:w-full w-96" width="564" height="410" id="gmap_canvas" src="https://maps.google.com/maps?q=california&t=&z=10&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://2yu.co"></a></div></div>
                     </div>
                 </div>
             </div>

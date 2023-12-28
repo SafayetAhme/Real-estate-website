@@ -15,6 +15,7 @@ import SignIn from './component/page/signin/SignIn';
 import SignUp from './component/page/signup/SignUp';
 import AllResout from './component/page/All resout/AllResout';
 import AboutUs from './component/page/about us/AboutUs';
+import Details from './component/page/details/Details';
 
 const router = createBrowserRouter([
   {
@@ -24,6 +25,11 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home>,
+      },
+      {
+        path: "/detail/:id",
+        element: <Details></Details>,
+        loader: () => fetch('http://localhost:5000/item')
       },
       {
         path: "/allresout",

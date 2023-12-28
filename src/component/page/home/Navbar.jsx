@@ -24,8 +24,8 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <div className="flex items-center gap-2 w-full">
-                        <img className="w-[60px] h-[59px] rounded-full" src="https://i.ibb.co/pvHhTQd/Group-1.png" alt="" />
-                        <h1 className="text-white text-2xl">Real Estate</h1>
+                        <img className="w-[50px] h-[38px]" src="https://i.ibb.co/3BQqFwR/Vector-12.png" alt="" />
+                        <h1 className="text-white text-2xl">SK BUILDERS</h1>
                     </div>
                 </div>
                 <div className="navbar-center font-medium text-[#01110A] hidden lg:flex">
@@ -34,8 +34,8 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <div className="rounded-full items-center pl-4 pr-1 flex gap-4 bg-white">
-                        <p className="flex  py-4 items-center gap-3">
+                    <div className="rounded-full items-center md:pl-4 md:pr-1 flex gap-4 bg-white">
+                        <p className="md:flex hidden md:py-4 items-center md:gap-3">
                             <Link to="/signin">Sign In</Link>
                             <Link to="/signup">Sign Up</Link>
                         </p>

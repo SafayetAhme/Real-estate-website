@@ -6,7 +6,7 @@ const AboutUsSection = () => {
         <div className="bg-[#1D4734] pb-10 mb-[300px] pt-24 px-10 -mt-[198px]">
             <div>
                 <div className="grid md:grid-cols-2 items-start">
-                    <div className="flex gap-4 items-center">
+                    <div className="flex gap-4 pb-8 md:pb-0 items-center">
                         <img className="w-[100px]" src="https://i.ibb.co/QmYjzRv/Group-427320622.png" alt="" />
                         <p className="text-white text-4xl font-secondary">About Us</p>
                     </div>
@@ -17,7 +17,7 @@ const AboutUsSection = () => {
                 </div>
                 <div className="grid -mt-14 items-end md:grid-cols-2">
                     <div>
-                        <p className="text-white font-secondary">We take great pride in ansuring the satisfaction  <br /> of our customers, which is why we guarantee  <br /> that the products</p>
+                        <p className="text-white md:pb-0 py-6 md:pt-0 pt-10 font-secondary">We take great pride in ansuring the satisfaction  <br /> of our customers, which is why we guarantee  <br /> that the products</p>
                         <Link to="/allresout">
                             <button className=" mt-3 px-8  py-3 bg-[#e09e6b] text-white relative inline-flex items-center justify-start overflow-hidden transition-all rounded hover:bg-white group">
                                 {/* purple box */}
@@ -28,7 +28,7 @@ const AboutUsSection = () => {
                             </button>
                         </Link>
                     </div>
-                    <div className="flex gap-12">
+                    <div className="flex md:pt-0 pt-6 gap-12">
                         <div>
                             <h1 className="text-white text-5xl font-bold">10<span className="text-[#ffbe8f]">+</span></h1>
                             <p className="text-[#ffffffca] pt-2">Awards Gained</p>

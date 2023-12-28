@@ -4,13 +4,13 @@ import { Link } from "react-router-dom"
 const WhyChooseUsSection = () => {
     return (
         <div className="p-[298px] px-10">
-            <div className="flex font-secondary items-c justify-between">
-                <h1 className="text-4xl text-[#1D2121] font-black">Why Choose Us</h1>
+            <div className="md:flex font-secondary items-c justify-between">
+                <h1 className="text-4xl md:pb-0 pb-3 text-[#1D2121] font-black">Why Choose Us</h1>
                 <p>Sit down and relaxed you don’t have to <br /> worry about anything. we got you covered</p>
             </div>
-            <div className="flex pt-8 gap-6">
+            <div className="md:flex pt-8 md:gap-6">
                 <Link to="/aboutus">
-                    <div className="bg-[#214f4f14] p-5">
+                    <div className="bg-[#214f4f14] md:mb-0 mb-5 p-5">
                         <h1 className="text-3xl font-bold pb-2">1.</h1>
                         <p className="text-xl pb-8">
                             We provide the best mortgage rates and online assistence.</p>
@@ -25,7 +25,7 @@ const WhyChooseUsSection = () => {
                     </div>
                 </Link>
                 <Link to="/aboutus">
-                    <div className="bg-[#264f2114] p-5">
+                    <div className="bg-[#264f2114] md:mb-0 mb-5 p-5">
                         <h1 className="text-3xl font-bold pb-2">2.</h1>
                         <p className="text-xl pb-8">
                             You can find near me best service and low price.</p>
