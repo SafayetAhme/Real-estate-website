@@ -5,7 +5,7 @@ const UseAgent = () => {
     const [agent, setMenu] = useState([]);
     const [loading, setLoading] = useState(true);
     useEffect(() => {
-        fetch('http://localhost:5000/agent')
+        fetch('https://server-site-liart.vercel.app/agent')
             .then(res => res.json())
             .then(data => {
                 setMenu(data);

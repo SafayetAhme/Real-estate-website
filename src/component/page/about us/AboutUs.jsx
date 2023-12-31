@@ -8,7 +8,7 @@ const AboutUs = () => {
     const [agent] = UseAgent();
 
     return (
-        <div>
+        <div className="container mx-auto">
             <div className="bg-[#1D4734] pb-10 mb-20 pt-24 px-10">
                 <div>
                     <div className="grid md:grid-cols-2 items-start">

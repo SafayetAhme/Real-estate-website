@@ -5,7 +5,7 @@ const UseItem = () => {
     const [item, setMenu] = useState([]);
     const [loading, setLoading] = useState(true);
     useEffect(() => {
-        fetch('http://localhost:5000/item')
+        fetch('https://server-site-liart.vercel.app/item')
             .then(res => res.json())
             .then(data => {
                 setMenu(data);

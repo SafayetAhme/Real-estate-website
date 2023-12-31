@@ -29,7 +29,7 @@ const router = createBrowserRouter([
       {
         path: "/detail/:id",
         element: <Details></Details>,
-        loader: () => fetch('http://localhost:5000/item')
+        loader: () => fetch('https://server-site-liart.vercel.app/item')
       },
       {
         path: "/allresout",
